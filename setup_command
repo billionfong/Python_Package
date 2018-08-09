@@ -1,9 +1,0 @@
-#!/bin/bash
-
-python3 setup.py sdist bdist_wheel
-python3 -m twine upload -u billionfong --repository-url https://upload.pypi.org/legacy/ dist/*
-
-git add -A .
-git commit -m "."
-git remote add origin https://github.com/billionfong/Python_Package.git
-git push -u origin master
