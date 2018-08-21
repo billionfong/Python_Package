@@ -1,7 +1,7 @@
 import setuptools
 
-with open("README.rst", "r") as fh:
-    long_description = fh.read()
+with open("README.rst", "r") as readMe:
+    long_description = readMe.read()
 
 setuptools.setup(
     name="billionfong",
@@ -12,10 +12,6 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/x-rst",
     url="https://www.billionfong.com/",
+    download_url="https://github.com/billionfong/Python_Package",
     packages=setuptools.find_packages(),
-    zip_safe=False,
-    classifiers=(
-        "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent",
-    ),
 )

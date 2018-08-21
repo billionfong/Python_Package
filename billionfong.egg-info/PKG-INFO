@@ -6,6 +6,7 @@ Home-page: https://www.billionfong.com/
 Author: Billy Fong
 Author-email: billionfong@billionfong.com
 License: UNKNOWN
+Download-URL: https://github.com/billionfong/Python_Package
 Description: ============
         billionfong
         ============
@@ -42,6 +43,4 @@ Description: ============
           billy.play(game = "mastermind")
         
 Platform: UNKNOWN
-Classifier: Programming Language :: Python :: 3
-Classifier: Operating System :: OS Independent
 Description-Content-Type: text/x-rst

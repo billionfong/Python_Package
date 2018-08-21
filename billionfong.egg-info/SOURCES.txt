@@ -6,5 +6,4 @@ billionfong/games.py
 billionfong.egg-info/PKG-INFO
 billionfong.egg-info/SOURCES.txt
 billionfong.egg-info/dependency_links.txt
-billionfong.egg-info/not-zip-safe
 billionfong.egg-info/top_level.txt
