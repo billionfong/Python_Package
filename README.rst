@@ -6,7 +6,9 @@ Introduction
 ***************
 This is a package created by Billy Fong.
 
-The package aims to create ~~2~~ 4 Billy, and some mini games for time killing.
+.. raw:: html
+
+   <p>The package aims to create <strike>2</strike>4 Billy, and some mini games for time killing.</p>
 
 billionfong
 ***************
