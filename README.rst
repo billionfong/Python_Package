@@ -6,7 +6,7 @@ Introduction
 ***************
 This is a package created by Billy Fong.
 
-The package aims to create 24 Billy, and some mini games for time killing.
+The package aims to create ~~2~~4 Billy, and some mini games for time killing.
 
 billionfong
 ***************
