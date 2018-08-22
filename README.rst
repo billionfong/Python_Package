@@ -7,7 +7,6 @@ Introduction
 This is a package created by Billy Fong.
 
 .. raw:: html
-
    <p>The package aims to create <strike>2</strike>4 Billy, and some mini games for time killing.</p>
 
 billionfong
@@ -30,8 +29,13 @@ Example
 
   import billionfong
   
+  #To show personalities and games included in the package.
   billionfong.info()
+  
+  #To create a class
   billy = billionfong.create(personality = "narcissist")
   billy.love()
   billy.shout()
+  
+  #Play mini-games
   billy.play(game = "mastermind")
