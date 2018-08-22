@@ -29,7 +29,8 @@ Example
 ::
 
   import billionfong
-
+  
+  billionfong.info()
   billy = billionfong.create(personality = "narcissist")
   billy.love()
   billy.shout()
