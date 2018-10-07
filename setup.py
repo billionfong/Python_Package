@@ -5,7 +5,7 @@ with open("README.rst", "r") as readMe:
 
 setuptools.setup(
     name="billionfong",
-    version="1.2.5",
+    version="1.2.6",
     author="Billy Fong",
     author_email="billionfong@billionfong.com",
     description="Welcome to billionfong's playground",

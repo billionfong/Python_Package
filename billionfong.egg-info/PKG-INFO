@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: billionfong
-Version: 1.2.5
+Version: 1.2.6
 Summary: Welcome to billionfong's playground
 Home-page: https://www.billionfong.com/
 Author: Billy Fong
@@ -15,8 +15,7 @@ Description: ============
         ***************
         This is a package created by Billy Fong.
         
-        .. raw:: html
-           <p>The package aims to create <strike>2</strike>4 Billy, and some mini games for time killing.</p>
+        The package aims to create 24 Billy (but only 4 are created), and some mini games for time killing.
         
         billionfong
         ***************
@@ -38,15 +37,9 @@ Description: ============
         
           import billionfong
         
-          #To show personalities and games included in the package.
-          billionfong.info()
-        
-          #To create a class
           billy = billionfong.create(personality = "narcissist")
           billy.love()
           billy.shout()
-        
-          #Play mini-games
           billy.play(game = "mastermind")
         
 Platform: UNKNOWN
