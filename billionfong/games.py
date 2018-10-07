@@ -7,14 +7,16 @@ class bingo():
         upper = 100
         while (True):
             string = str(lower)+" < ? < "+str(upper)+":\t"
-            guess =  int(float(input(string)))
-            if (guess == answer):
-                print ("Bingo!")
-                return
-            elif ((lower < guess) and (guess < answer)):
-                lower = guess
-            elif ((upper > guess) and (guess > answer)):
-                upper = guess
+            guess = input(string)
+            if (RepresentsInt(guess)):
+                guess =  int(float(guess))
+                if (guess == answer):
+                    print ("Bingo!")
+                    return
+                elif ((lower < guess) and (guess < answer)):
+                    lower = guess
+                elif ((upper > guess) and (guess > answer)):
+                    upper = guess
             else:
                 print ("Please input a valid input.")
 
@@ -28,9 +30,11 @@ class martermind():
             flag = True
             guess = 0
             while (flag):
-                guess =  int(float(input("Guess?\t")))
-                if (self.check_input(guess)):
-                    flag = False
+                guess = input("Guess?\t")
+                if (RepresentsInt(guess)):
+                    guess =  int(float(guess))
+                    if (self.check_input(guess)):
+                        flag = False
                 else:
                     print ("Wrong input")
             guess, answer_2, count = self.check_same(guess, answer)
@@ -124,3 +128,12 @@ class martermind():
                 count = count + 1
                 answers.remove(i)
         return count
+    
+def RepresentsInt(s):
+    if (s.find(".") > 0):
+        return False
+    try: 
+        int(s)
+        return True
+    except ValueError:
+        return False

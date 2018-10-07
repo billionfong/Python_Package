@@ -28,14 +28,14 @@ Example
 ::
 
   import billionfong
-  
+
   #To show personalities and games included in the package.
   billionfong.info()
-  
+
   #To create a class
   billy = billionfong.create(personality = "narcissist")
   billy.love()
   billy.shout()
-  
+
   #Play mini-games
   billy.play(game = "mastermind")
